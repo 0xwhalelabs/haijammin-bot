@@ -226,12 +226,9 @@ if not TELEGRAM_BOT_TOKEN:
     raise RuntimeError("TELEGRAM_BOT_TOKEN 환경 변수가 설정되어 있지 않습니다.")
 
 
-genai.configure(
-    api_key=GEMINI_API_KEY,
-    client_options={"api_version": "v1"},
-)
+genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(
-    "models/gemini-1.5-flash",
+    "gemini-1.5-flash",
     system_instruction=system_instruction,
 )
 
