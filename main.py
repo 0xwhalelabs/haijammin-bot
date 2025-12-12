@@ -243,8 +243,8 @@ system_instruction = """
 """
 
 
-# 모델 설정 (우선 flash를 기준으로 시도)
-model_name = "gemini-1.5-flash"
+# 모델 설정 (list_models에 실제로 존재하는 플래시 최신 모델 사용)
+model_name = "models/gemini-flash-latest"
 
 try:
     model = genai.GenerativeModel(
