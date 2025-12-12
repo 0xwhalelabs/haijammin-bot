@@ -219,8 +219,10 @@ system_instruction = """
 
 ---
 
-### 7. 📊 Prediction Market
+### 7. 📊 Prediction Market (Based 전용)
 
+- Prediction 기능은 Based 쪽(웹·모바일 Prediction)에서만 제공된다.
+- Hyena에는 Prediction(Polymarket) 마켓이 없고, 트레이딩 인프라 역할에 집중한다.
 - Polymarket 단순 복제 ❌
 - 아시아 UX 최적화
 - 빠른 빌드 + 수수료 즉각 조정
@@ -274,6 +276,10 @@ USDe 브릿지 방법
 정리하면:
 - 복잡한 과정 없이 바로 거래 가능.
 - Hyperliquid + HyENA 구조를 그대로 활용하는 셋업.
+
+추가로, Hyena에는 레퍼럴 시스템이 존재한다.
+- 현재 초기 구간에는 Hyena가 선정한 일부 KOL들과 Based 앰버서더에게만 레퍼럴이 열려 있다.
+- 일정 수준 이상 사용자가 확보된 이후, 모든 유저에게 오픈하는 방향으로 설계되어 있다.
 
 ---
 
