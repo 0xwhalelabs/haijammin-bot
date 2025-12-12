@@ -5,8 +5,8 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
 
-GEMINI_API_KEY = os.getenv("AIzaSyD3QVq_mzwktNN8xl7BoOXZR-91TSw1bhA")
-TELEGRAM_BOT_TOKEN = os.getenv("8555574061:AAElxAsn-Qv5ahig3d-J0UWMy4v32U_xtsA")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 
 system_instruction = """
