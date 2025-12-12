@@ -227,7 +227,7 @@ if not TELEGRAM_BOT_TOKEN:
 
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("models/gemini-1.5-pro", system_instruction=system_instruction)
+model = genai.GenerativeModel("gemini-1.5-flash", system_instruction=system_instruction)
 
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
