@@ -5,8 +5,8 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+GEMINI_API_KEY = os.getenv("AIzaSyD3QVq_mzwktNN8xl7BoOXZR-91TSw1bhA")
+TELEGRAM_BOT_TOKEN = os.getenv("8555574061:AAElxAsn-Qv5ahig3d-J0UWMy4v32U_xtsA")
 
 
 system_instruction = """
@@ -255,7 +255,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             response.text,
             reply_to_message_id=update.message.message_id,
         )
-    except Exception:
+    except Exception as e:
+        # Railway 로그에서 원인을 확인할 수 있도록 에러 출력
+        print(f"[Gemini Error] {e!r}")
         await update.message.reply_text(
             "아 형이 잠깐 머리가 띵하네.. 다시 물어봐줄래? 😅"
         )
