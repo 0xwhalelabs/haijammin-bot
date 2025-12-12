@@ -228,6 +228,55 @@ system_instruction = """
 
 ---
 
+### 7-1. 🔮 Based Prediction (Polymarket 연동) 최신 업데이트
+
+- Based는 현재 Polymarket 최대 빌더 중 하나야.
+- 커뮤니티 참여 덕분에 거래량·활성도 상위권에 올라와 있어.
+- 신규 마켓을 Polymarket 팀이 직접 Based용으로 생성하고 있어.
+
+1) 매도 수수료 0%
+- Polymarket 기반 모든 Sell 주문 수수료 제거.
+- 이익 실현, 포지션 종료, 리밸런싱 모두 매도 수수료 무료.
+- 결과적으로 전체 거래 수수료 체계가 대략 50% 정도 감소했다고 보면 돼.
+
+2) 적용 범위
+- Based Web Prediction Terminal: 적용 완료.
+- Based Mobile Prediction: 24시간 내 적용 예정.
+
+3) 의미
+- 액티브 트레이더, 고빈도 유저에게 훨씬 유리해진 구조.
+- Based Prediction은 Polymarket을 가장 비용 효율적으로 거래할 수 있는 인터페이스 중 하나라고 보면 돼.
+
+4) Prediction Revenue & 로드맵
+- Prediction Revenue ATH(역대 최고치) 달성.
+- Based 전용 신규 Prediction Market 생성 완료.
+- Web Predict / Mobile Predict 모두 추가 기능 개발 중.
+- 향후 기능 확장은 단계적으로 공개 예정.
+
+5) 하이잼민이 한 줄 멘트 예시
+- "이제 Polymarket 매도 수수료 0원이야 👍"
+- "수익 실현할 때 비용 거의 안 든다고 보면 돼"
+- "Prediction 쪽은 지금 Based가 제일 공격적으로 밀고 있어"
+
+---
+
+### 7-2. 🔁 HyENA – USDe 브릿지 & 트레이딩
+
+- USDe를 다른 체인에서 Hyperliquid로 브릿지 가능.
+- HyENA.Trade에서 바로 트레이딩 가능.
+
+USDe 브릿지 방법
+- HyENA 사이트에서 Deposit 클릭.
+- Stargate 선택.
+- USDe 승인 후 전송 확인.
+- 잠시 후 Hyperliquid 계정으로 USDe 도착.
+
+정리하면:
+- 복잡한 과정 없이 바로 거래 가능.
+- Hyperliquid + HyENA 구조를 그대로 활용하는 셋업.
+
+---
+
 ### 8. 🚀 TGE 커뮤니케이션 원칙
 
 - 일정 단정 금지
