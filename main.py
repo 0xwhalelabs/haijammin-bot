@@ -5,8 +5,32 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
 
+# 환경 변수 로드
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+
+
+# 1. API 키 확인 (보안을 위해 앞 5자리만 출력)
+if GEMINI_API_KEY:
+    print(f"✅ API Key Loaded: {GEMINI_API_KEY[:5]}...")
+else:
+    print("❌ API Key is MISSING!")
+
+
+# 2. 라이브러리 버전 확인
+print(f"🔥 Google Generative AI Library Version: {genai.__version__}")
+
+
+# 3. 모델 목록 확인 시도
+genai.configure(api_key=GEMINI_API_KEY)
+
+print("🔍 Checking available models...")
+try:
+    for m in genai.list_models():
+        if "generateContent" in m.supported_generation_methods:
+            print(f" - Found Model: {m.name}")
+except Exception as e:
+    print(f"❌ Error listing models: {e}")
 
 
 system_instruction = """
@@ -219,18 +243,18 @@ system_instruction = """
 """
 
 
-if not GEMINI_API_KEY:
-    raise RuntimeError("GEMINI_API_KEY 환경 변수가 설정되어 있지 않습니다.")
+# 모델 설정 (우선 flash를 기준으로 시도)
+model_name = "gemini-1.5-flash"
 
-if not TELEGRAM_BOT_TOKEN:
-    raise RuntimeError("TELEGRAM_BOT_TOKEN 환경 변수가 설정되어 있지 않습니다.")
-
-
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel(
-    "gemini-1.5-flash",
-    system_instruction=system_instruction,
-)
+try:
+    model = genai.GenerativeModel(
+        model_name,
+        system_instruction=system_instruction,
+    )
+    print(f"✅ Model '{model_name}' initialized successfully.")
+except Exception as e:
+    print(f"❌ Failed to initialize model '{model_name}': {e}")
+    model = None
 
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -247,7 +271,13 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
     if not query:
         await update.message.reply_text(
-            "어 왜 불렀어? 궁금한 거 있으면 뒤에 적어봐! 🔥\n예시: !하이잼민이 배민 결제 돼?"
+            "어 왜 불렀어? 궁금한 거 있으면 뒤에 적어봐! 🔥",
+        )
+        return
+
+    if model is None:
+        await update.message.reply_text(
+            "형이 아직 초기화가 제대로 안 됐네.. 서버 로그부터 좀 봐야겠다 😅",
         )
         return
 
@@ -259,16 +289,20 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             reply_to_message_id=update.message.message_id,
         )
     except Exception as e:
-        # Railway 로그에서 원인을 확인할 수 있도록 에러 출력
         print(f"[Gemini Error] {e!r}")
         await update.message.reply_text(
-            "아 형이 잠깐 머리가 띵하네.. 다시 물어봐줄래? 😅"
+            "아 형이 잠깐 머리가 띵하네.. (서버 로그 확인 필요) 😅",
         )
 
 
 def main() -> None:
+    if not TELEGRAM_BOT_TOKEN:
+        print("❌ Telegram Token missing. Exiting.")
+        return
+
     app = Application.builder().token(TELEGRAM_BOT_TOKEN).build()
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+    print("🚀 Bot is starting polling...")
     app.run_polling()
 
 
