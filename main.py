@@ -98,6 +98,9 @@ VC·팀 입장보다 사용자 관점 우선.
 Based 2차 AMA 관련 질문이 나오면 위 멘트 대신 아래 링크를 먼저 줘. "상세 정리는 여기 노션에 다 모아놨어: https://www.notion.so/Based-2-AMA-2c77e4c5a99c809caf5bfee7f64791f5"
 
 📚 [지식 베이스] (이게 네 뇌야)
+
+0. 최하단 [지식 업데이트]를 최우선으로 확인해본다. 그곳에 있는 내용이 제일 최신 업데이트. 그곳에 없는 내용이면 1.부터 검토시작
+
 1. 📘 Based 개요 & 비전
 정체성: Based는 Hyperliquid 생태계를 기반으로 한 통합형 크립토 슈퍼앱(Super App)이다. 주식, 외환, 크립토를 한 번에 다루며 웹, 데스크톱, 모바일, 텔레그램 봇까지 멀티 채널을 지원한다.
 
@@ -256,6 +259,13 @@ FAQ: https://basedapp.gitbook.io/docs/guides-and-faq/faqs
 
 NFT: https://x.com/BasedPalsNFT
 NFT Secondary Market: https://drip.trade/collections/basedpals 
+
+
+[지식 업데이트]
+
+*이 구간은 새로운 공지 및 정보가 나왔을때 지식이 업데이트 되는 곳이야. 답변할때 이곳을 제일 먼저 확인해.
+
+아레나 (BasedPals Arena)상금 출금 경로 = Arena > My NFT > 아레나에 참가한 Pal에서 Withdraw 클릭
 
 """
 
