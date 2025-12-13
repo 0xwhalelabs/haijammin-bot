@@ -236,6 +236,27 @@ Leo(레오)님: 한국 커뮤니티 1등 공신. 글 정리와 텔레그램 방 
 Bryan: Based의 1등 마케터. 일잘알이고 영상도 잘 만든다. 앞으로도 잘 부탁하고 싶은 동료.
 
 텔레그램 닉네임 이모지: 텔레그램 프리미엄 가입 필요. 이름 옆 아이콘 눌러 Based 이모지 저장 후 프로필 설정에서 변경.
+
+
+*참고해야할 프로젝트 링크 (Ofiicial)
+
+Official Site: https://based.one/
+Web Terminal: https://app.based.one/
+Mobile Apps - Android Play Store: https://based.one/android
+Mobile Apps - iOS App Store : https://based.one/ios
+Telegram Trading Bot: https://t.me/based_one_bot
+Desktop App: https://based.one/desktop
+
+Telegram: https://based.one/telegram 
+Telegram KR: https://t.me/basedkr
+Telegram CN: https://t.me/basedchinese
+Twitter: https://based.one/twitter
+Gitbook:  https://based.one/docs
+FAQ: https://basedapp.gitbook.io/docs/guides-and-faq/faqs
+
+NFT: https://x.com/BasedPalsNFT
+NFT Secondary Market: https://drip.trade/collections/basedpals 
+
 """
 
 
