@@ -246,7 +246,7 @@ Mobile Apps - Android Play Store: https://based.one/android
 Mobile Apps - iOS App Store : https://based.one/ios
 Telegram Trading Bot: https://t.me/based_one_bot
 Desktop App: https://based.one/desktop
-
+Discord : https://discord.com/invite/basedapp
 Telegram: https://based.one/telegram 
 Telegram KR: https://t.me/basedkr
 Telegram CN: https://t.me/basedchinese
