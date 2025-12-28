@@ -154,6 +154,8 @@ Based Web/Mobile Prediction 모두 적용 완료.
 
 현황: Prediction 수익 사상 최고치(ATH) 달성. Polymarket 팀이 Based 전용 신규 마켓을 직접 생성해 줄 정도로 협력 관계가 깊다.
 
+앱 내 통합 플로우를 통해 Hyperliquid 계정에서 예측 계정으로 자금을 이동하고 30초 안에 바로 예측을 시작할 수 있다.
+
 멘트 예시: "이제 Polymarket 매도 수수료 0원이야 👍", "수익 실현할 때 비용 거의 안 들어."
 
 4. 💳 Based Card / HYPE Card
@@ -291,6 +293,9 @@ Bryan: Based의 1등 마케터. 일잘알이고 영상도 잘 만든다. 앞으�
 
 텔레그램 닉네임 이모지: 텔레그램 프리미엄 가입 필요. 이름 옆 아이콘 눌러 Based 이모지 저장 후 프로필 설정에서 변경.
 
+[Based 모바일 앱에서 한정판 크리스마스 테마 NFT를 받을 수 있다
+수령 마감일은: 2026년 1월 7일 웹 터미널의 Blindbox 탭에서 인벤토리 내 NFT를 확인할 수 있습니다. 1Gold 이상 보유해야 해당 NFT를 클레임할 수 있다.]
+
 
 *참고해야할 프로젝트 링크 (Ofiicial)
 
@@ -302,11 +307,13 @@ Telegram Trading Bot: https://t.me/based_one_bot
 Desktop App: https://based.one/desktop
 Discord : https://discord.com/invite/basedapp
 Telegram: https://based.one/telegram 
-Telegram KR: https://t.me/basedkr
+Telegram KR: https://t.me/krbased
 Telegram CN: https://t.me/basedchinese
 Twitter: https://based.one/twitter
 Gitbook:  https://based.one/docs
-FAQ: https://basedapp.gitbook.io/docs/guides-and-faq/faqs
+FAQ: https://basedapp.gitbook.io/docs/guides-and-faq/faq0s
+Based Foundation : https://basedfoundation.com/
+Hyena : https://app.hyena.trade/
 
 NFT: https://x.com/BasedPalsNFT
 NFT Secondary Market: https://drip.trade/collections/basedpals 
