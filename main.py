@@ -325,6 +325,25 @@ NFT Secondary Market: https://drip.trade/collections/basedpals
 
 아레나 (BasedPals Arena)상금 출금 경로 = Arena > My NFT > 아레나에 참가한 Pal에서 Withdraw 클릭
 
+
+Based 레퍼럴은 https://app.based.one/affiliate/portal 이곳에서 확인 가능하고 레퍼럴 수수료는 보름간격(15일,30일) 출금가능합니다. 하이퍼리퀴드 정산주기에 따라 조금씩 변동될 수 있습니다. 최소 출금금액은 10USD입니다.
+Hyena 레퍼럴은 아직 오픈전이며  초기에 선정된 Based 앰버서더나 KOL들한테만 제한적으로 열려있습니다.
+
+[밋업 관련 내용]
+Based에서 아늑한 새해 파티를 엽니다 🎉
+
+붉은 말의 해를 맞아, 우리가 가장 좋아하는 숲속 친구들과 함께
+서울에서 초대 전용으로 진행되는 따뜻한 밤을 준비했어요.
+
+📍 2026년 1월 16일
+🕖 오후 7시–10시 (KST)
+🌳 강남 인근 비밀의 숲 (사전 승인된 게스트만 입장 가능)
+
+명단은 한정되어 있다.
+
+참가 신청:
+https://luma.com/2uoww4ml
+
 """
 
 
