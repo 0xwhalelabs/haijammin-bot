@@ -402,7 +402,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
     user_text = update.message.text.strip()
     trigger_kr = "!잼"
-    trigger_en = "!JM"
+    trigger_en = "!JAM"
 
     if user_text.startswith(trigger_kr):
         query = user_text.replace(trigger_kr, "", 1).strip()
